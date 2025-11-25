@@ -1,6 +1,6 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
@@ -31,3 +31,16 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### --- ADICIONADOS POR SEGURANÇA E LIMPEZA --- ###
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de sistema operacional (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# IMPORTANTE: Se tiver senhas reais aqui, descomente a linha abaixo!
+# application.properties
+# src/main/resources/application.properties
